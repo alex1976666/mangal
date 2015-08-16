@@ -1,0 +1,207 @@
+
+header{
+	background-color:#8C847C;
+    padding: 10px 0 50px;
+
+
+	 .col-xs-2{
+		padding: 0;
+	}
+
+	 .col-xs-3{
+		padding-right: 0;
+	}
+
+	.col-xs-1{
+		padding: 0;
+	}
+
+	.logo{
+		cursor: pointer;
+		min-width: 195px;
+	}
+	
+
+	 a{
+		text-decoration: none;
+	}
+
+	span{
+		font-size: 60px;
+		line-height: 55px;
+		text-transform: uppercase;
+	}
+
+
+	.header-slogan{
+		padding-left: 35px;
+		font-family: @roboto;
+		font-weight: @light;
+		font-size: @fz18;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	.vk{
+		padding-left: 40px;
+	}
+
+	.numb{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 12px;
+		font-family: @roboto;
+		font-weight: @light;
+		font-size: @fz18;
+		
+		a{
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+
+	.callme{
+		font-size: 14px;
+		font-family: @roboto;
+		font-weight: 400;
+		a{
+			color: #DCB89A;
+		}
+	}
+
+	.col-xs-1 div{
+		font-size: 14px;
+
+	}
+
+	.icon-basket{
+			margin-right: 8px;
+		}
+
+	.quantity{
+		width: 24px;
+		height: 24px;
+		display: inline-block;
+		vertical-align: middle;
+		border-radius: 50%;
+		background-color: @red;
+		color: #fff;
+		position: absolute;
+		top: -10px;
+		right: 0;
+	}
+
+	.quantity:after{
+		content: "";
+		height: 25px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.main-nav{
+		background-color: #B99F93;
+		border-radius: 6px;
+		border: 1px solid #e1e1e1;
+		margin-top: 15px;
+		overflow: hidden;
+
+		.active-nav-item:last-of-type{
+			margin-right: -5px;
+
+
+		}
+	}
+	
+
+	.main-nav__item{
+		height: 75px;
+		width: 14.2857%;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		position: relative;
+	}
+
+
+
+	.main-nav__item a{	
+		font-size: @fz18;
+		line-height: 75px;
+		color: #fff;
+		font-family: @roboto;
+		font-weight: @regular;
+		border-right: 1px solid #f4f2f2;
+		display: block;
+		transition: .3s;
+		white-space: nowrap;
+		padding: 0;
+		}
+	.main-nav__item:last-child a{
+		border-right: none;
+	}
+
+	.main-nav__item:hover a{
+	transform: translateY(-2px);
+	color: #530;
+	text-decoration: none;
+	}	
+
+	.navbar-collapse{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	 	
+
+}
+
+
+
+// Media
+
+    @media(max-width: 767px) {
+
+    	header .logo span{
+    		font-size: 40px;
+    	}
+ 
+  header .main-nav__item{
+     display: block;
+   }
+
+  header .federal-numb, header .direct-numb{
+  	font-size: @fz18 - 5;
+  }
+  header .col-xs-5{
+  	text-align: center;
+  }
+  header .numb{
+  	margin-right: 10px;
+  	font-size: 12px;
+  }
+ 
+  
+}
+
+ @media(min-width: 992px) and (max-width: 1200px) {
+
+	header .header-slogan{
+		font-size: @fz18 - 1;
+	}
+    header .logo span{
+    	font-size: 50px;
+    }
+  
+}
+
+    
+
+
+
+
+
+
+
+
+
+
